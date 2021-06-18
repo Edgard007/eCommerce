@@ -1,0 +1,94 @@
+.containerBodyData {
+    margin-top: 35px;
+    width: 100%;
+}
+
+.tituleSeccion {
+    text-align: left;
+    font-size: 1.2857142857rem;
+    color: #555;
+    margin-top: 0;
+}
+
+.containerHeader {
+    width: 100%;
+    height: auto;
+}
+
+.imgHeader {
+    width: 100%;
+    object-fit: contain;
+}
+
+.containerCards {
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+}
+
+.cardSeccion {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    background-color: #fff;
+    border: solid 1px #e6e6e6;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.cardSeccion:hover {
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
+    transition: transform 0.5s ease-out;
+    transform: translateY(-1px);
+}
+
+.imgCardSeccion {
+    width: 85%;
+    object-fit: contain;
+}
+
+.containerTwo {
+    margin-top: 35px;
+    width: 100%;
+    height: 200px;
+    box-shadow: 0 6px 15px 0 rgb(0 0 0 / 10%);
+}
+
+.tituleCard {
+    width: 100%;
+    height: 20%;
+    background: linear-gradient( 90deg, var(--main-bg-color), #66b100);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-weight: bold;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+
+.bodyCards {
+    display: flex;
+    width: 100%;
+    height: 80%;
+}
+
+.containerHijo {
+    width: 35%;
+    display: flex;
+    padding: 15px;
+    flex-direction: column;
+    line-height: 2.3;
+}
+
+.textChild {
+    color: var(--main-bg-color);
+    font-size: 14px;
+}
+
+@media (max-width: 800px) {
+    .containerTwo {
+        height: 270px;
+    }
+}

@@ -1,0 +1,142 @@
+:root {
+    --main-bg-color: #3c9700;
+    --secundary-bg-color: #f2f3f4;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: var(--secundary-bg-color);
+    font-family: Arial, sans-serif;
+}
+
+.containerBody {
+    display: flex;
+    height: auto;
+    justify-content: center;
+}
+
+.containerData {
+    width: 75%;
+    background-color: #fff;
+    margin-top: 7%;
+    padding: 20px;
+    margin-bottom: 7%;
+}
+
+.containerDescuento {
+    margin-top: 10px;
+    position: relative;
+    color: #767676;
+    padding: 15px 15px 15px 15px;
+    background-color: var(--secundary-bg-color);
+    border-left-style: solid;
+    border-left-color: #2f7dbf;
+}
+
+.codeDesc {
+    color: var(--main-bg-color);
+}
+
+strong {
+    margin-left: 10px;
+}
+
+a {
+    color: var(--main-bg-color);
+}
+
+a, a:focus, a:hover {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.containerBack {
+    margin-top: 30px;
+    display: none;
+}
+
+.container {
+    margin-top: 3%;
+    width: 100%;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-around;
+}
+
+.left {
+    width: 20%;
+}
+
+.leftOne {
+    box-shadow: 0 6px 15px 0 rgb(0 0 0 / 10%);
+    border-radius: 5px;
+    background-color: #fff;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    line-height: 1.7;
+    height: 15%;
+}
+
+.title {
+    font-size: 14px;
+    font-family: inherit;
+    font-weight: 700;
+    color: var(--main-bg-color);
+}
+
+.secundary {
+    font-weight: 400;
+    color: #555;
+    font-size: 14px;
+}
+
+.cardTwo {
+    width: 100%;
+    height: 15%;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.imgPromo {
+    width: 100%;
+    height: 100%;
+}
+
+.right {
+    width: 70%;
+}
+
+.titule {
+    text-align: left;
+    font-size: 26px;
+    color: #555;
+    margin-top: 0;
+}
+
+.descrip {
+    font-size: 13px;
+    font-family: inherit;
+    text-align: justify;
+}
+
+.selected {
+    text-align: center;
+    color: var(--main-bg-color);
+    font-weight: 700;
+}
+
+@media (max-width: 995px) {
+    .left {
+        display: none;
+    }
+    .right {
+        width: 100%;
+    }
+    .containerBack {
+        display: block;
+    }
+}
